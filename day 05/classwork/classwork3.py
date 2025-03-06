@@ -1,6 +1,8 @@
-age = input("enter you age: ")
+# Get user input for age
+age = int(input("Enter your age: "))
 
-if age >=:
-    print("you are allow to enter club ")
+# Check if age is 18 or older
+if age >= 18:
+    print("You are allowed to enter the club.")  # Message for allowed entry
 else:
-    print("you are not alow to enter club")
+    print("You are not allowed to enter the club.")  # Message for denied entry
